@@ -1,0 +1,98 @@
+#header {
+     background-color: #d9d9d9;
+     color: #ffffff;
+     height: 50px;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     right: 0px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+/* Here starts the Right Header */
+
+.quick-links {
+     padding-left: 20px;
+     width: 150px;
+}
+
+.github-icon {
+     height: 35px;
+     border-radius: 20px;
+}
+
+/* Here starts the Middle Header */
+
+.brand-title {
+     font-size: 20px;
+     font-weight: 600;
+     letter-spacing: 5px;
+}
+
+/* Here Starts the Right Nav Bar */
+
+.menu {
+     background-color: #d9d9d9;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     top: 50px;
+     right: -100%;
+     width: 150px;
+     height: 150px;
+     padding: 0px;
+     margin: 0px;
+}
+
+.nav-item {
+     list-style-type: none;
+     padding: 8px 16px;
+}
+
+.nav-item:hover {
+     font-weight: 700;
+     cursor: pointer;
+     text-shadow: 1px 1px 1px #000000;
+}
+
+a {
+     color: #ffffff;
+     text-decoration: none;
+}
+
+/* Here Starts the Nav Hamburger */
+
+.hamburger {
+     margin-right: 20px;
+}
+
+.hamburger:hover {
+     cursor: pointer;
+}
+
+.hamburger.active .chevron:nth-child(2) {
+     opacity: 0;
+}
+
+.hamburger.active .chevron:nth-child(1) {
+     transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.active .chevron:nth-child(3) {
+     transform: translateY(-7px) rotate(-45deg);
+}
+
+.chevron {
+     background-color: #ffffff;
+     height: 5px;
+     width: 25px;
+     margin: 2px;
+}
+
+.menu.active {
+     right: 0px;
+}
