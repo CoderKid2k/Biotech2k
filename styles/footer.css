@@ -1,0 +1,23 @@
+#footer {
+     background-color: #d9d9d9;
+     position: fixed;
+     bottom: 0px;
+     left: 0px;
+     right: 0px;
+     height: 35px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+.twitter-icon {
+     height: 25px;
+     border-radius: 13px;
+}
+
+.follow-us {
+     padding-left: 20px;
+     font-size: 15px;
+
+}

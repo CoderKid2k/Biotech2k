@@ -1,5 +1,5 @@
 #header {
-     background-color: #d9d9d9;
+     background-color: #872ca0;
      color: #ffffff;
      height: 50px;
      position: fixed;
@@ -11,21 +11,13 @@
      align-items: center;
 }
 
-/* Here starts the Right Header */
-
-.quick-links {
-     padding-left: 20px;
-     width: 150px;
-}
-
-.github-icon {
-     height: 35px;
-     border-radius: 20px;
-}
-
 /* Here starts the Middle Header */
 
 .brand-title {
+     padding-left: 20px;
+}
+
+.site-name {
      font-size: 20px;
      font-weight: 600;
      letter-spacing: 5px;
@@ -34,7 +26,7 @@
 /* Here Starts the Right Nav Bar */
 
 .menu {
-     background-color: #d9d9d9;
+     background-color: #872ca0;
      display: flex;
      flex-direction: column;
      justify-content: center;
