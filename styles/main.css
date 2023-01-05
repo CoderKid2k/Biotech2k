@@ -12,6 +12,12 @@ main {
      text-align: center;
 }
 
+.section-title a {
+     color: #000000;
+     font-size: 20px;
+     text-align: center;
+}
+
 .large-text {
      font-size: 20px;
 }
