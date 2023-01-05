@@ -1,3 +1,17 @@
 main {
      margin-top: 65px;
+     margin-bottom: 50px;
+}
+
+.container {
+     padding: 20px;
+}
+
+.section-title {
+     font-size: 20px;
+     text-align: center;
+}
+
+.large-text {
+     font-size: 20px;
 }
