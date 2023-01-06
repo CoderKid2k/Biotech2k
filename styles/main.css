@@ -3,6 +3,8 @@ main {
      margin-bottom: 50px;
 }
 
+/* Here Starts the Contents of the Index Page */
+
 .container {
      padding: 20px;
 }
@@ -20,4 +22,27 @@ main {
 
 .large-text {
      font-size: 20px;
+}
+
+/* Innovation Page Styles Starts here */
+
+.list-border {
+     border: 1px solid #000000;
+}
+
+.list-header {
+     text-align: center;
+}
+
+.list-container {
+     text-align: center;
+}
+
+.list-align {
+     display: inline-block;
+     text-align: left;
+}
+
+.tech-list {
+     font-size: 25px;
 }
