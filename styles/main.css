@@ -15,9 +15,13 @@ main {
 }
 
 .section-title a {
-     color: #000000;
+     color: #216be3;
      font-size: 20px;
      text-align: center;
+}
+
+.section-title a:hover {
+     text-shadow: 1px 1px 1px #000000;
 }
 
 .large-text {
@@ -50,5 +54,9 @@ main {
 /* Here Starts the Companies Page */
 
 .tech-list a {
-     color: #7054d6;
+     color: #216be3;
+}
+
+.tech-list a:hover {
+     text-shadow: 1px 1px 1px #000000;
 }

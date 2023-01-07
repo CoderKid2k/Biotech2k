@@ -24,6 +24,10 @@
      padding: 10px;
 }
 
+.profiles a {
+     color: #000000;
+}
+
 .progress-bar {
      margin-left: 20px;
 }
