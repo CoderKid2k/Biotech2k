@@ -3,7 +3,7 @@ main {
      margin-bottom: 50px;
 }
 
-/* Here Starts the Contents of the Index Page */
+/* Here Starts the Index Page */
 
 .container {
      padding: 20px;
@@ -24,7 +24,7 @@ main {
      font-size: 20px;
 }
 
-/* Innovation Page Styles Starts here */
+/* Here Starts the Innovation Page */
 
 .list-border {
      border: 1px solid #000000;
@@ -47,7 +47,7 @@ main {
      font-size: 25px;
 }
 
-/* Companies Page Starts Here */
+/* Here Starts the Companies Page */
 
 .tech-list a {
      color: #7054d6;
