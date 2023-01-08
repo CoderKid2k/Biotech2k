@@ -1,4 +1,5 @@
 main {
+     font-family: 'Trebuchet MS', Arial, sans-serif;
      margin-top: 65px;
      margin-bottom: 50px;
 }
@@ -22,6 +23,7 @@ main {
 
 .section-title a:hover {
      text-shadow: 1px 1px 1px #000000;
+     transition: .5s;
 }
 
 .large-text {
@@ -59,4 +61,5 @@ main {
 
 .tech-list a:hover {
      text-shadow: 1px 1px 1px #000000;
+     transition: .5s;
 }
