@@ -32,10 +32,11 @@
      justify-content: center;
      align-items: center;
      position: fixed;
+     font-size: 120%;
      top: 50px;
      right: -100%;
-     width: 150px;
-     height: 200px;
+     width: 200px;
+     height: 300px;
      padding: 0px;
      margin: 0px;
 }
