@@ -63,3 +63,7 @@ main {
      text-shadow: 1px 1px 1px #000000;
      transition: .5s;
 }
+
+.top a {
+     color: #216be3;
+}
