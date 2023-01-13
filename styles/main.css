@@ -4,6 +4,10 @@ main {
      margin-bottom: 50px;
 }
 
+a {
+     text-decoration: none;
+}
+
 /* Here Starts the Index Page */
 
 .container {
