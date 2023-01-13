@@ -31,3 +31,8 @@
 .progress-bar {
      margin-left: 20px;
 }
+
+.updated {
+     text-align: right;
+     margin-right: 50px;
+}
