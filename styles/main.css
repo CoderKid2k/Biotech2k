@@ -81,15 +81,6 @@ a {
      justify-content: center;
 }
 
-.science-list {
-     text-align: center;
-     margin-bottom: 50px;
-}
-
-.list-align {
-     text-align: left;
-}
-
 .science-topic {
      width: 45%;
 }
@@ -100,14 +91,17 @@ a {
      }    
 }
 
-/* Here Starts the Science Sub Page */
-
-.title-head {
-     text-align: center;
-     font-size: 20px;
+.science-list {
+     padding-left: 30px;
 }
 
-.science-layout {
-     font-size: 110%;
-     padding: 10px 25px;
+/* Here Starts the Science Sub Page */
+
+.science-headers {
+     text-align: center;
+     padding: 25px 0px;
+}
+
+.science-container {
+     padding: 15px;
 }
