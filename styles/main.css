@@ -95,6 +95,10 @@ a {
      padding-left: 30px;
 }
 
+.science-list a {
+     color: #216be3;
+}
+
 /* Here Starts the Science Sub Page */
 
 .science-headers {
@@ -104,4 +108,8 @@ a {
 
 .science-container {
      padding: 15px;
+}
+
+.science-topics a {
+     color: #216be3;
 }
