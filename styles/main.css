@@ -111,3 +111,8 @@ a {
      font-size: 110%;
      padding: 10px 25px;
 }
+
+.science-header {
+     text-align: center;
+     margin-bottom: 50px;
+}
