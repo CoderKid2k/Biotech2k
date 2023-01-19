@@ -187,7 +187,52 @@
                     <section>
                          <h2 class="science-headers" id="cas9">CAS9</h2>
                          <p>     
-                              
+                              The CAS9 system comes with 2 components. The first is the guide RNA and the second is the CAS9 enzyme itself. The 
+                              CAS9 is made up of a few key domains with the two nucleases that are the HNH and RuvC domains. Both the nucleases will 
+                              activate and make a double stranded break at the exact same location in the DNA on both strands. Some CAS9 
+                              enzymes have one of these 2 nucleases mutated to be inactive. These are called a Nickase as they will only 
+                              cut 1 strand of DNA. The next key domain of the CAS9 is the PAM sequence. This matches a specific sequence of the DNA. 
+                              Each CAS enzyme has a different PAM site which it recognizes. The CAS9 PAM will recognize the sequence 
+                              N-G-G. This stands for Anything-Guanine-Guanine.
+                         </p>
+                         <p>
+                              The CAS9 nucleases will cut about 3 to 4 bases away from its PAM sequence. This is important as this short 
+                              distance makes it difficult for CAS9 to do multiple edits. Once an edit occurs, the site for the guide and 
+                              PAM matching will be disrupted by the edit.
+                         </p>
+                         <p>
+                              The last part of the CAS9 system is the guide RNA (gRNA). If you recall, the wild type guides where made
+                              up of 2 segements in the crRNA and the tracrRNA. They would come together to form the complete guide RNA.
+                              This would be too complex for use in gene editing so they use a single guide RNA which basically links 
+                              them together. This is called a single guide RNA (sgRNA) and just basically makes the 2 different guides into 
+                              one guide. They do this with a little linker loop at the end of the 2 guides to attach them.
+                         </p>
+                         <p>
+                              The sgRNA is installed in the delivery vector as RNA, but the CAS9 is often installed into the vector as a 
+                              messenger RNA. Some of the newer RNP packaging will include the CAS9 as a full enzyme. When its used as a mRNA, 
+                              it is about 4,100 bases in length and encodes a enzyme about 1,368 amino acids long. This is a very big 
+                              package for most traditional vectors. Most companies have moved toward LNP technology for delivery.
+                              The CAS9 will load the guide RNA when inside the cell. It enters the nucleus where it will bind to the DNA. 
+                              The CAS9 opens the DNA and runs the 20 base guide along the DNA until it finds its match. Once the guide 
+                              and PAM have a match, the nucleases will cut the DNA.
+                         </p>
+                         <p>
+                              This system can be used for Disruptions, Deletions or 
+                              Insertions of genes. The disruption is done by causing Double Stranded Breaks at the target site to cause 
+                              mutations that prevent reading of that gene. This effectively knocks out the gene. This works really well 
+                              in-vivo as we have some very strong clinical data so far. The second use is gene deletion. This can be created 
+                              using 2 CAS9 enzymes along with 2 guides to attempt to cut and remove an entire section of the DNA. I don't 
+                              think this has ever been attempted in-vivo, and I don't think I would want it to be. The last use is gene insertion 
+                              using homology directed repair using a template strand that gets included with the CAS9 and guide RNA at 
+                              the time of delivery. The CAS9 does the DNA cutting and the template strand guides the repair.
+                         </p>
+                         <p>
+                              The biggest concern 
+                              with the CAS9 system is the Double Stranded Breaks. When DNA is cut like this, it can repair in unexpected 
+                              ways. You can end up with insertions or deletions (Indels) of bases.
+                              The other big concern is chromosomal rearrangements when used for multiple edits at once. 
+                              Typically they have to do an edit and run the cell through the cell cycle to ensure the first 
+                              edit was good before they can do the next.
                          </p>
                          <p class="top-link"><a href="#top">Top</a></p>
                     
@@ -196,7 +241,47 @@
                     <section>
                          <h2 class="science-headers" id="cas12">CAS12</h2>
                          <p>     
-                              
+                              The CAS12 system comes with 2 components. The first is the guide RNA and the second is the CAS12 
+                              enzyme itself. The CAS12 is made up of one key domain with a single cutting nuclease with RuvC. When 
+                              the CAS12 enzyme cuts, it makes a staggered break in the DNA by about 5 nucleotides between cut sites. 
+                              This is much preferred for DNA repair. It also cuts much further away from its PAM sequence. The next key 
+                              domain of the CAS12 is the PAM sequence. This matches a specific sequence of the DNA. Each CAS enzyme has 
+                              a different PAM site which it recognizes. The CAS12 PAM will recognize the sequence T-T-T-V. This stands 
+                              for Thymine-Thymine-Thymine-Anything not another T. The CAS12 nucleases will cut about 18 to 23 bases away 
+                              from its PAM sequence. This is important as this longer distance makes it good for CAS12 to do multiple 
+                              edits. This CAS12 enzyme can sit at the PAM and make multiple edits with out disrupting its own activity.
+                         </p>
+                         <p>
+                              The last part of the CAS12 system is the guide RNA.  The CAS12 enzyme does not require the tracrRNA. It only 
+                              uses the crRNA which makes it much smaller for the guide RNA. The crRNA used by the CAS12 enzyme will only 
+                              be about 42 nucleotides long. The guide RNA is installed in the delivery vector as RNA, but the CAS12 is 
+                              often installed into the vector as a messenger RNA. Some of the newer RNP packaging will include the CAS12 
+                              as a full enzyme. When its used as a mRNA, its about 3,800 bases in length and encodes a enzyme about 1,270 
+                              amino acids long. This is still a very big package for most traditional vectors. Most companies have moved 
+                              toward LNP technology for delivery.
+                         </p>
+                         <p>
+                              The CAS12 will load the guide RNA when inside the cell. It enters the nucleus where it will bind 
+                              to the DNA. The CAS9 opens the DNA and runs the 20 base guide along the DNA until it finds its 
+                              match. Once the guide and PAM have a match, the nuclease will cut both DNA strands. Due to the fact that 
+                              CAS12 makes a staggered cut of about 5 bases, it makes it a bit easier for the repair of the DNA without as 
+                              many insertions and deletions (Indels).
+                         </p>
+                         <p>
+                              This system can be used for Disruptions, Deletions or Insertions of genes. The disruption is done by causing 
+                              Double Stranded Breaks at the target site to cause mutations that prevent reading of that gene. The second use is 
+                              gene deletion. This can be created using 2 CAS12 enzymes along with 2 guides to attempt to cut and remove 
+                              an entire section of the DNA. The last use is gene insertion using homology directed repair using a template 
+                              strand that gets included with the CAS12 and guide RNA at the time of delivery. The CAS12 does the DNA 
+                              cutting and the template strand guides the repair. One other use that CAS12 has found is in developing diagnostics. 
+                              Companies use CAS12 to do diagnostics. This uses the CAS and guide as a search function to find DNA sequences. Then it 
+                              cuts a reproter molecule which gives a readout.
+                         </p>
+                         <p>
+                              The biggest concern with the CAS12 system is the Double Stranded Breaks. When DNA is cut like this, it can 
+                              repair in unexpected ways. You can end up with insertions or deletions (Indels) of bases. The other big concern is 
+                              chromosomal rearrangements when used for multiple edits at once. Typically they have to do an edit and run 
+                              the cell through the cell cycle to ensure the first edit was good before they can do the next.
                          </p>
                          <p class="top-link"><a href="#top">Top</a></p>
                     
@@ -205,7 +290,25 @@
                     <section>
                          <h2 class="science-headers" id="mad7">MAD7</h2>
                          <p>     
-                              
+                              The MAD7 enzyme is a variant of the CAS12 which was found in bacteria from the Island of Madagascar. It shares 
+                              a large amount of homology to the original CAS12 from which it most likely derived. The MAD7 system comes with 
+                              2 main components with the guide RNA and the Nuclease. The MAD7 has only 1 nuclease with the RuvC just like 
+                              with the CAS12 enzyme. It even makes the staggered double stranded cut like CAS12. The next key domain of the MAD7 
+                              is the PAM sequence. This matches a specific sequence of the DNA. Each CAS enzyme has a different PAM site 
+                              which it recognizes. The MAD7 PAM will recognize the sequence T-T-T-V. This stands for Thymine-Thymine-Thymine-Anything 
+                              not another T. It also has the ability to recognize C-T-T-V which stands for Cytosine-Thymine-Thymine-Anything that is 
+                              not another T. The early data form Inscripta shows both these PAM sequences work equally as well. The MAD7 nucleases 
+                              will cut about 20 to 50 bases away from its PAM sequence. This is important as this longer distance makes 
+                              it good for MAD7 to do multiple edits. This MAD7 enzyme can sit at the PAM and make multiple edits with out 
+                              disrupting its own activity. The last part of the MAD7 system is the guide RNA.  The MAD7 enzyme does not require the 
+                              tracrRNA. It only uses the crRNA which makes it much smaller for the guide RNA. This is the same as for the 
+                              CAS12 enzyme. The MAD7 is just a few amino acids smaller than the CAS12 enzyme with about 1263 amino acids. This is about 
+                              3,790 bases for a messenger RNA transcript.
+                         </p>
+                         <p>
+                              The MAD7 system is owned and Licensed by Inscripta. They let anyone use the technology for free for 
+                              research. They license it for a small royalty for commercial use. I know a few companies that license it 
+                              from them. It works pretty much like CAS12 with some minor differences. 
                          </p>
                          <p class="top-link"><a href="#top">Top</a></p>
                     
