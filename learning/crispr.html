@@ -317,7 +317,24 @@
                     <section>
                          <h2 class="science-headers" id="casx">CASX</h2>
                          <p>     
-                              
+                              The CASX enzyme was discovered by Berkeley like many of the CAS enzymes we covered in the past. They do a 
+                              ton of research into this space. What I know about CASX comes from papers I read from them and Scribe 
+                              Biosciences which is deploying this CASX enzyme.
+                         </p>
+                         <p>
+                              This CRISPR enzyme has some attributes of the CAS9 and some of the CAS12. It uses an single guide RNA 
+                              (sgRNA). This includes the crRNA and a tracrRNa combined into a single guide. This part is like CAS9.
+                              The CASX enzyme has the RuvC domain which is its nuclease. This makes a staggered double stranded break 
+                              like all the other single RuvC nucleases. This part is like CAS12. The other domain of the CASX is its PAM. 
+                              This PAM looks for the sequence T-T-C-N which means Thymine-Thymine-Cytosine-Anything. This is a unique PAM
+                              sequence from other editors. The CASX will cut 1 strand about 12-14 nucleotides from the PAM and the other 
+                              strand about 22-25 nucleotides from the PAM. This leave sa slightly bigger potential staggered cut around 
+                              10 bases long. The size of the CASX is thought to be under 1,000 amino acids in length. This makes it smaller 
+                              than other CAS enzymes. I have seen some data for it used in cells showing it could edit.
+                         </p>
+                         <p>
+                              So far they have not developed any clinical programs with this editing technology, but I suspect, it wont be 
+                              too long before we start to hear more about CASX or some form of base or writer system built off CASX.
                          </p>
                          <p class="top-link"><a href="#top">Top</a></p>
                     
@@ -326,7 +343,30 @@
                     <section>
                          <h2 class="science-headers" id="cas13">CAS13</h2>
                          <p>     
-                              
+                              This was developed by the Zhang Lab. Most of my information on this CAS13 enzyme comes from the 
+                              papers published from the Lab. This system looks and operates much like CAS9, but it works on 
+                              single stranded RNA. It uses a single stranded guide RNA. The data I have seen shows the guide is typically 
+                              in the 30 bases to 50 bases range. It includes and RNase for cutting of the RNA. This is programmable as 
+                              cutting RNA is not always the best option. I didn't see any mention of a PAM site or any PAM sequence. I am not sure if 
+                              it was just not disclosed or if it doesn't use any. This is being developed with several functions in mind.
+                              The first and obvious use is to target and destroy mRNA using this system to knock down unwanted proteins. This would 
+                              compete with RNAi. I don't think that is what they want to do as RNAi works really well. It would also 
+                              compete with gene knockout from editors.
+                         </p>
+                         <p>
+                              The first good use is to develop a version of base editing from the CAS13 enzyme so it can be used to alter
+                              pathogenic messenger RNA's before they can be translated by the Ribosome. This allows for correction 
+                              without permanent gene editing. This uses ADAR to flip an A in the RNA to an I which gets read as a G. This system is called 
+                              RNA editing for programmable A to I replacement (REPAIR). They are developing another system called RNA Editing for Specific 
+                              C to U Editing (RESCUE). This takes the ADAR and modifies it for application of C to U editing.
+                         </p>
+                         <p>
+                              The other big use is to use the CAS13 as a diagnostic. This can be used as a test for viral RNA 
+                              detection. The CAS13 and guide work like a search function. When the correct sequence is found, 
+                              the RNase will cut. They include a reporter molecule which would also get cut my the RNase and have a 
+                              fluorescence to give a read out. This is being deployed by Sherlock Bioscience as part of their SHERLOCK 
+                              system. This stands for Specific High-sensitivity Enzymatic Reporter unLOCKing (SHERLOCK). This could be 
+                              a very big use for the CAS13. So far, it is the only working RNA editor I have seen data on.
                          </p>
                          <p class="top-link"><a href="#top">Top</a></p>
                     
@@ -335,7 +375,29 @@
                     <section>
                          <h2 class="science-headers" id="mini">CAS14 and Phi</h2>
                          <p>     
-                              
+                              Both of these CAS enzymes are being developed by Mammoth Bioscience. I will focus mainly on CAS14 as I 
+                              have some published data on this enzyme. I can also add Phi later if I find some good papers on it. I 
+                              call these the CAS mini enzymes. Their main claim to fame is they are about half the size of the original 
+                              CAS enzymes. CAS9 and CAS12 were about 1,300 amino acids in length. The CAS14 is just 500 to 700 amino 
+                              acids long. That is less than half the size of the first generation CAS enzymes.
+                         </p>
+                         <p>
+                              The CAS14 enzyme uses the full single guide RNA which consist of the crRNA and a tracrRNA. The CAS enzyme 
+                              works on single stranded DNA. It has a RuvC nuclease domain that cuts single stranded DNA. The one thing about 
+                              CAS14 is that it seems to have no PAM site. After looking at the testing, it seems to work independent of 
+                              any PAM sequence. I am sure that will need more clarification later. The CAS14 is being deployed as a diagnostic 
+                              tool. The CAS14 and guide RNA works like a search function. This will find the desired location in the DNA. 
+                              The RuvC nuclease will cut the strand at that location. They include a reporter molecule that will also 
+                              get cut by the RuvC. The reporter has fluorescence which will light up and highlight the sequence has been found. 
+                              This is used as a diagnostic tool for infectious disease and other applications.
+                         </p>
+                         <p>
+                              CAS-Phi was discovered in Bacteriophages. They use it as a competitive system to attack and cut up the DNA of other 
+                              bacteriophages that might be competing for the same bacteria. This has been adopted for a potential DNA 
+                              editing tool.  The CAS-phi is much smaller than the original CAS9 and 12 enzymes, but bigger than CAS14. There is no 
+                              mention of a PAM sequence for CAS-phi. It seems like it might have a PAM, but it hasn't been fully clarified yet.
+                              It does a staggered cut with about 8-12 bases apart like other CAS enzymes. That is about all I could find 
+                              so far on CAS14 and CAS-phi. I am sure we will get more data from these programs as they develop.
                          </p>
                          <p class="top-link"><a href="#top">Top</a></p>
                     
@@ -344,7 +406,46 @@
                     <section>
                          <h2 class="science-headers" id="base">Base Editing</h2>
                          <p>     
-                              
+                              Base Editing takes the CAS9 system and takes it to the next level for targeted DNA editing. This takes the 
+                              enzyme deaminase and tethers it to the CAS9 system. This CAS9 uses a Nickase which has one of the nuclease 
+                              deactivated. This actually creates 2 different new systems with Adenosine Based Editors (ABE) and Cytosine 
+                              Based Editors (CBE). Both of these work by removing the amino group from either the Adenine base or the 
+                              Cytosine base. By removing the amino group from these Adenine or Cytosine bases, it facilitates their transition 
+                              to Guanine or Thymine. The base editing technology can only do transitions. It can not do a Transversion. It can't 
+                              take a 2 ringed based and turn it into a 1 ringed base or vice versa. This ability to change a single base at 
+                              a time requires no Double Stranded Breaks which is the biggest benefit of base editing.
+                              Double stranded breaks can cause mutations in the DNA with Indels or trigger p53 and apoptosis which leads 
+                              to lower editing efficiency. 
+                         </p>
+                         <p>
+                              This system starts by inserting the CAS9 which has the Deaminase tethered 
+                              to it. This will load the guide RNA. The CAS9 along with the guide RNA act like a search and find 
+                              function to find the right location in the DNA to do base editing. Then the Deaminase works within a 4 - 5 
+                              base window where it can edit. The Deaminase will make the base modification from an A to a G for a C to 
+                              a T. After, there will be a miss match base where the edit was made. The nickase will cut the unedited strand which 
+                              will trigger DNA repair. This will allow for the correction of the miss match using the edited strand as a 
+                              template.
+                         </p>
+                         <p>
+                              One of the issue with base editing is the enzyme Uracil DNA Glycosylase (UNG). This enzyme is designed 
+                              to find and fix deamination events in the DNA that result in Thymine being turned into Uracil. This 
+                              would undo the effects of the CBE editor. To fix this issue the CBE editor includes an inhibitor of UNG. This 
+                              is called Uracil Glycosylase inhibitor (UGI). This block the function of the UNG for a while to allow base 
+                              editing to occur. The Adenine Based Editing actually turn the base into and Inosine which gets read as a Guanine. 
+                              This is why the ABE base editor doesn't need the UGI enzyme to block the repair machinery of the cell.
+                         </p>
+                         <p>
+                              The biggest risk to Base Editing is what we call bystander edits. Since the window for the deaminase is 4 to 
+                              5 bases wide, what happens if more than 1 A or C shows up in the window? Which one would the deaminase 
+                              change? The answer to this question is it would be, it is random. There is no way to control which base would get 
+                              changed if more than 1 shows up in the window. Shifting the window can sometimes fix this this issue.
+                              Other times, the solution is test the bystander edits to ensure that change would be benign. The technology of 
+                              base editing was developed from the Dr Liu lab.
+                         </p>
+                         <p>
+                              It is currently being developed by Beam Therapeutics and Verve Therapeutics. This technology offers 
+                              a very safe alternative to Double Stranded breaks which could address a large portion of the 
+                              thousands of diseases which stem from a single base mutation.
                          </p>
                          <p class="top-link"><a href="#top">Top</a></p>
                     
@@ -353,7 +454,37 @@
                     <section>
                          <h2 class="science-headers" id="prime">Prime Editing</h2>
                          <p>     
-                              
+                              Prime Editing is a 2nd generation editor as it takes the CAS9 system and tethers to it a Reverse Transcriptase 
+                              that can take a RNA template and copy it into the DNA. This is a concept has been used by Retroviruses for 
+                              millions of years. To make this work the guide RNA gets bigger. The original single guide RNA (sgRNA) gets an 
+                              additional segment which serves 2 functions. First it has a sequence that binds to the DNA after its cut to 
+                              stabilize it. Then it has a section where it acts as a template for the Reverse Transcriptase. This new bigger guide 
+                              RNA is called the pegRNA. This allows the Reverse Transcriptase to copy the RNA template into the DNA by 
+                              adding new bases to the 3' end.
+                         </p>
+                         <p>
+                              In the single Prime editing, the guide RNA also includes a nickase which cuts the other strand to 
+                              initiate homology directed repair after the flap is created. The twin Prime Editing uses 2 CAS9 systems working on both 
+                              strands of the DNA. Each of these will create a single stranded break and create a new flap. The space 
+                              between them can be just a dozen or so bases difference. The Reverse Transcriptase only has strong efficiency at around 
+                              10 to 30 bases from the PAM site. This system works well to allow editing of both stands of DNA while not 
+                              technically creating a double stranded break.
+                         </p>
+                         <p>
+                              There are some concerns with the Twin Prime system. The first is the Reverse Transcriptase makes mistakes. It 
+                              reads the template from the guide RNA, but it can insert the wrong base. This occurs about 1 in 100,000 
+                              bases. The RT does not have proofreading functions like a DNA polymerase. 1 in 100,000 doesn't sound like a lot of mistakes, 
+                              but when editing millions of cells in a human, it can be hundreds of errors. This system also suppresses 
+                              the natural DNA missmatch repair systems (MMR). I have seen people be very dismissive of the risk of introduction of 
+                              mutations into the genes. I think its very concerning that they would expose cells to potentially thousands of mutations
+                              without defining the risk.
+                         </p>
+                         <p>
+                              The other concern with Prime Editing is it can still cause Insertions and Deletions (Indels) at the site of 
+                              the flap repair. This might be lower than trying to edit with a Double Stranded break, but it is still a 
+                              risk. The Twin Prime System has a lot of potential to change the way we can edit DNA without double 
+                              stranded breaks, but it introduces new risks that have yet not been quantified. The Prime Editing Technology was
+                              developed my the Dr Liu lab and is being deployed by Prime Medicines.
                          </p>
                          <p class="top-link"><a href="#top">Top</a></p>
                     
@@ -362,7 +493,24 @@
                     <section>
                          <h2 class="science-headers" id="paste">PASTE Editing</h2>
                          <p>     
-                              
+                              PASTE stands for Programmable Addition via Site-specific Targeting Elements. This is being 
+                              developed by MIT and there is not a ton of information on it at this point. I will go over the 
+                              basics. This starts with the CAS9 system and adds to it a tethered Reverse Transcriptase and an 
+                              Integrase. An integrase is an enzyme that homes to specific sequences in the DNA where it will 
+                              insert itself. These are called landing sites. The concept is the CAS9 and Reverse Transcriptase 
+                              work just like Prime Editing. It uses a pegRNA to find the site in the DNA for desired editing. The 
+                              Reverse Transcriptase encodes a landing site into the DNA at that location. Then the integrase will 
+                              use that landing site to insert the new gene or genetic information. This is a very complex system 
+                              which I am sure will need extensive testing to work out all the bugs.
+                         </p>
+                         <p>
+                              The one major drawback of PASTE is it can only insert. It can not change or edit the DNA beyond the creation 
+                              of the landing site. This means the location of target has to be very specific to ensure it does not cause 
+                              any problems. You would not want to insert this just anywhere as it does not replace any DNA. This is just a 
+                              site targeting insertion of a genetic payload. They are currently working on several integrases with this 
+                              technology. I saw mention to Bxb1 and TP901 in the papers. There are a lot of different integrases and they 
+                              all have different landing sites for the sequence of bases they recognize. I am sure they will be able to 
+                              develop several of them for this purpose in PASTE.
                          </p>
                          <p class="top-link"><a href="#top">Top</a></p>
                     
