@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-US">
+     <head>
+          <title>CRISPR</title>
+
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="TechBio, Genomics, Sequencing, Synthetic Biology, and iPSC">
+          <meta name="author" content="CoderKid2k">
+
+          <link rel="stylesheet" href="../styles/header.css">
+          <link rel="stylesheet" href="../styles/main.css">
+          <link rel="stylesheet" href="../styles/footer.css">
+
+     </head>
+     <body>
+
+          <!--There Starts the Header-->
+
+          <header id="header">
+
+               <div class="brand-title">
+                    <h1 class="site-name"><a href="../index.html">Biotech2k.com</a></h1>
+               </div>
+
+               <nav>
+                    <ul class="menu">
+                         <li class="nav-item">
+                              <a href="../index.html">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="../pages/innovation.html">Innovation</a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="../pages/companies.html">Companies</a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="../pages/science.html">Science</a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="../pages/clinicaldata.html">Clinical Data</a>
+                         </li>
+                    </ul>
+               </nav>
+
+               <div class="hamburger">
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+               </div>
+
+          </header> 
+
+          <!--Here Starts the Main Body-->
+
+          <main>
+
+               <h1 class="science-headers">CRISPR</h1>
+
+               <div class="science-container">
+
+                    
+                    <ul>
+                         <li class="science-topics">
+                              <a href="#intro">Intro to CRISPR</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#types">Types of CRISPR</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#cas9">CAS9</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#cas12">CAS12</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#mad7">MAD7</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#casx">CASX</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#cas13">CAS13</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#mini">CAS14 and Phi</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#base">Base Editing</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#prime">Prime Editing</a>
+                         </li>
+                         <li class="science-topics">
+                              <a href="#paste">PASTE Editing</a>
+                         </li>
+                    </ul>
+                    
+
+                    <section>
+                         <h2 class="science-headers" id="intro">Intro to CRISPR</h2>
+                         <p>     
+                              What does CRISPR stand for? It stands for Clustered Regularly Interspaced Short Palindromic Repeats. 
+                              This was discovered by scientists studying bacteria. Bacteria get infected by viruses called 
+                              Bacteriophages. They attach to the bacteria and inject their viral DNA. Scientists noticed that the 
+                              bacterial genome had a sequence of repeats. It showed a small sequence of DNA then a repeat followed by 
+                              another small sequence and another repeat. They named this area of the bacteria genome the CRISPR region. 
+                              This is the bacteria's immune system.
+                         </p>
+                         <p>
+                              It works through type 1 CRISPR enzymes like CAS1 and CAS2, chopping up the bacteria DNA. Then a small 
+                              sequence of the viral DNA called the protospacer is inserted into the CRISPR region of the bacteria 
+                              genome. What happens next is very awesome. The bacteria transcribes the entire CRISPR region into one 
+                              long messenger RNA called the pre-transcript. This gets chopped up so each DNA sequence that matches 
+                              the virus' protospacer becomes the CRISPR RNA (crRNA) and the repeat becomes the trans activating 
+                              RNA (tracrRNA). The repeat segments become the tracrRNA that will get loaded into an enzyme called CAS9. 
+                              CAS9 stands for CRISPR Associated Protein 9. The CAS9 will recognize the tracrRNA and bind to it.
+                              The crRNA will then bind to the tracrRNA to make a complete guide RNA. The two RNA segments bind together 
+                              by complementary base pair binding by hydrogen bonding.  Once the CAS9 is loaded with the complete guide 
+                              RNA, it will go and find any DNA that has the matching protospacer for the loaded guide. The guide is a complete 
+                              complementary sequence of RNA that matches that protospacer in the Viral genome.
+                         </p>
+                         <p>
+                              The actual guide sequence is about 20 nucleotides long. Once it finds the matching viral DNA, the 
+                              CAS9 enzyme will cut that DNA. This destroys the viral DNA.  I know what you are thinking. If the DNA 
+                              sequence copied into the CRISPR region of the Bacteria matches the viral DNA, how does the CAS9 not 
+                              cut up that bacteria's DNA too? The answer to that is the PAM sequence of the CAS9 enzyme. This stands 
+                              for Protospacer Adjacent Motif. This is a small segment of nucleotides in the DNA that is recognized 
+                              by the CAS9 enzyme which is N-G-G. The N stands for any nucleotide while the G stands for Guanine. This 
+                              basically means the CAS9 enzyme not only needs to match the guide RNA sequence to the protospacer, but 
+                              it also needs to match its PAM to the 2 Guanines near the protospacer. If both don't exist, the CAS9 
+                              will not cut. As you can guess, the CRISPR region of the bacteria genome would not contain the PAM 
+                              sequence so the CAS9 would be selective for targeting the viral DNA, but not the bacteria's DNA.
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="types">Types of CRISPR</h2>
+                         <p>     
+                              The CRISPR system was discovered in 2012 by two scientists by the names of Jennifer Doudna and Emmanuelle 
+                              Charpentier. While studying the CRISPR immune systems of the bacteria Streptococcus Pyogenes, they 
+                              discovered a system that could be adapted for human genome editing. CRISPR stands for Clustered Regularly 
+                              InterSpaced Palindromic Repeats. It turned out this system was the immune system for the bacteria. 
+                         </p>
+                         <p>
+                              The actual CRISPR enzymes that are adapted for human genome editing are called CRISPR Associated 
+                              (CAS) Enzymes. The first one discovered was CAS9. These enzymes contain nucleases which are domains 
+                              that allow for DNA cutting. The CAS9 has 2 of these nuclease domains to cut both strands of DNA.
+                              The CAS9 enzyme is guided by a strand of RNA that matches to the desired sequence in the DNA. 
+                              This becomes a search function for finding and cutting the DNA at a specific location. Since the discovery 
+                              of the first CAS9 nuclease, scientists and companies have been out there searching the microbe world for 
+                              new CRISPR systems and nuclease enzymes. We are going to look at them all.
+                         </p>
+                         <p>
+                              CAS enzymes are broken down into two classes with Class 1 enzymes and Class 2 enzymes. These two classes 
+                              are further broken down into Types and Subtypes for the CAS enzymes. This gets pretty complicated so I 
+                              will give you the general differences. The Class 1 CAS enzymes are made up of multiple units called subunits. 
+                              They have to work together to function. One such example is CAS3 which works with CAS8 and CAS11 to 
+                              edit RNA. Class 2 CAS enzymes are one large structure that contains everything in one. This includes many of the 
+                              current CAS enzymes like CAS9, CASX, CAS12, CAS13 and MAD7. All of these come from different microbes but 
+                              work similarly.
+                         </p>
+                         <p>
+                              All of them contain the RuvC nuclease domain to cut the DNA or RNA. The CAS9 is the only one I know that 
+                              also contains the NHN nuclease domain as a second nuclease. CAS enzymes are further broken down into what their nuclease cuts. 
+                              Some of them are designed to cut RNA, and they are being built for RNA editing like CAS13. Most are designed for 
+                              DNA editing like CAS9, CAS12, MAD7 and CASX.
+                         </p>
+                         <p>
+                              The major advance in CAS enzyme was the discovery of other CAS enzyme in other microbes. There has been an 
+                              explosion of new CAS enzymes that we can use to develop editing tools. CAS9 was the original discovered in Streptococcus 
+                              Pyogenes. Not long after Cpf1 (now known as CAS12) was discovered in 2015. This quickly grew in popularity. 
+                              Then came the discovery of CASX in E-coli from Berkeley  which is now used by Scribe Therapeutics. MAD7 was discovered in a 
+                              bacteria in Madagascar which gave it the name MAD7. It is now used by Inscripta, and they license it to 
+                              many companies. This works very much like CAS12 in its function. Both CAS14 and CAS-Phi were discovered by Mammoth Bioscience 
+                              and are being developed by them. These are much smaller versions of the CAS enzymes. I call them the CAS 
+                              mini. Both of them are about half the size of CAS9. CAS13 is the first RNA editor being developed by the Zhang lab. It was discovered 
+                              from a bacteria called Leptotrichia wadei. The last one is CAS11 which is part of the CAS3 system. It is 
+                              being develop for applications in gene knockout and possibly RNA editing.
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="cas9">CAS9</h2>
+                         <p>     
+                              
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="cas12">CAS12</h2>
+                         <p>     
+                              
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="mad7">MAD7</h2>
+                         <p>     
+                              
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="casx">CASX</h2>
+                         <p>     
+                              
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="cas13">CAS13</h2>
+                         <p>     
+                              
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="mini">CAS14 and Phi</h2>
+                         <p>     
+                              
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="base">Base Editing</h2>
+                         <p>     
+                              
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="prime">Prime Editing</h2>
+                         <p>     
+                              
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="paste">PASTE Editing</h2>
+                         <p>     
+                              
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+               </div>
+
+          </main>
+
+          <!--Here Starts the Footer-->
+
+          <footer id="footer">
+               <div>
+                    <a href="https://www.twitter.com/biotech2k1">
+                         <img class="twitter-icon" src="../images/twitterlogo.jpg" alt="Follow us on Twitter">
+                    </a>
+               </div>
+               <div>
+                    <p class="follow-us">Follow us on Twitter</p>
+               </div>
+          </footer>
+
+          <!--Javascript-->
+
+          <script src="../code/header.js"></script>
+
+     </body>
+</html>
