@@ -113,3 +113,37 @@ a {
 .science-topics a {
      color: #216be3;
 }
+
+/* Portfolio Page Starts Here */
+
+.portfolio {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
+table caption {
+     background-color: #d5a9e1;
+     border: solid 1px #000000;
+     font-weight: 800;
+}
+
+table tr:hover {
+     background-color: #d5a9e1;
+}
+
+.theme {
+     border: solid 1px #000000;
+     margin: 10px 25px;
+     width: 45%;
+}
+
+.totals {
+     background-color: #d5a9e1;
+}
+
+@media screen and (max-width: 768px) {
+     .theme {
+          width: 95%;
+     }
+}
