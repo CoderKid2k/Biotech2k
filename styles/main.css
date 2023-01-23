@@ -114,6 +114,20 @@ a {
      color: #216be3;
 }
 
+/* Investing Page Style Starts Here */
+
+.investor-link {
+     font-size: 20px;
+}
+
+.investor-link a {
+     color: #216be3;
+}
+
+.investor-link a:hover {
+     text-shadow: 1px 1px 1px #000000;
+}
+
 /* Portfolio Page Starts Here */
 
 .portfolio {
@@ -130,6 +144,7 @@ table caption {
 
 table tr:hover {
      background-color: #d5a9e1;
+     font-weight: 700;
 }
 
 .theme {
@@ -146,4 +161,9 @@ table tr:hover {
      .theme {
           width: 95%;
      }
+}
+
+.updated {
+     text-align: right;
+     margin-right: 50px;
 }
