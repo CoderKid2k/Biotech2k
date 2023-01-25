@@ -167,3 +167,13 @@ table tr:hover {
      text-align: right;
      margin-right: 50px;
 }
+
+/* Investing Pages Start Here */
+
+.investing-headers {
+     text-align: center;
+}
+
+.investing-container {
+     padding: 15px;
+}

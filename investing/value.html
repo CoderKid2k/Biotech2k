@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+     <head>
+          <title>Valuing Biotech</title>
+
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="My System to Value Biotech">
+          <meta name="author" content="CoderKid2k">
+
+          <link rel="stylesheet" href="../styles/header.css">
+          <link rel="stylesheet" href="../styles/main.css">
+          <link rel="stylesheet" href="../styles/footer.css">
+     </head>
+     <body>
+          <header id="header">
+
+               <!--This Starts the Header-->
+
+               <div class="brand-title">
+                    <h1 class="site-name"><a href="../index.html">Biotech2k.com</a></h1>
+               </div>
+
+               <nav>
+                         <ul class="menu">
+                              <li class="nav-item">
+                                   <a href="../index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="../pages/innovation.html">Innovation</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="../pages/companies.html">Companies</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="investing.html">Investing</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="../pages/science.html">Science</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="../pages/clinicaldata.html">Clinical Data</a>
+                              </li>
+                         </ul>
+               </nav>
+
+               <div class="hamburger">
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+               </div>
+
+          </header>
+
+          <!--Here Starts the Main Body-->
+
+          <main>
+
+               <div class="investing-container">
+               
+                    <section>
+                         <h2 class="investing-headers">Valuing Biotech</h2>
+                         <p> 
+                              My system for valuing biotech is something I developed over the years. I built this system 
+                              to be an easy way to get a general ball park valuation for a company so I can tell if its 
+                              overvalued or undervalued. I built it from years of watching how company's stocks respond to
+                              clinical data. The value a company loses or gains on a clincal data read out informs us to what 
+                              the value was attributed to that program in the value of the stock. Then I have to assume 2 
+                              variables in this value. The first is the value considers what the potential of the progam. A 
+                              program that could do $1 billion in sales would be worth more than one that could do $250 million 
+                              in sales. The second assumption is the value takes in consideration the level of validation of the
+                              program. A phase 3 program is more validated than one in phase 1. It would have a bigger impact on
+                              valuation than a program in phase 1. If both these assumptions are true, then we can use the move 
+                              in a company's stock price based on a clinical failure or success to inform us of the value.
+                         </p>  
+                         <p>
+                              My model is a sum of the parts model. I take each drug in the pipeline and figure out what it could earn 
+                              in revenues at peak sales. Then I adjust that value based on the level of validation of that drug. That gives 
+                              me the value for that single drug. Then I add up all the value for all the programs and add in the cash. 
+                              If I have a drug worth $500 million value, a second worth $250 million, and the company has $500 million cash, 
+                              my valuation would be $500 million + $250 million + $500 million = $1.25 billion value.
+                         </p> 
+                         <p>
+                              The key values here are estimating peak sales and adjusting those sales based on the level of clinical 
+                              validation. You can often get estimates for sales from analysts or even the company. The harder 
+                              way is more accurate, but takes more time. If you follow your companies, they will often define for you the 
+                              size of the pateint population in their presentations. Then all you need to do is find prices of 
+                              comparable drugs, and you can calculate peak sales. The only change would be to adjust for potential market share 
+                              for competition. The level of validation for the drug would simply be the level of clinical success it has 
+                              achieved. I take the peak sales and adjust them for the phase of development using .1x for preclinical, 1x for 
+                              phase 1 data, 2x for phase 2 data, 3x for phase 3 data and 5x sales for a mature biotech valuation.
+                         </p>
+                         <p>
+                              Once you have the value for each drug in the pipeline, you just add them up and add in the cash on the 
+                              balance sheet. This will give you a total valuation for the company. You can compare the market cap you 
+                              calculated to the current market cap to see if its too expensive or too cheap. You can even adjust your 
+                              valuation based on the outstanding shares and get a stock price for that valuation. Every time a company 
+                              reports they wil issue a 10Q or 10K. The very first page will list the number of outstanding shares at 
+                              the time of reporting. You can divide you valuation by the shares outstanding and get a price target.
+                         </p>                
+                    </section>
+
+                    <p>&#42; I am not a Financial Advisor. This is just My Strategy. Please refer to your financail advisor before making any investing decisions.</p>
+
+               </div>
+               
+          </main>
+
+          <!--Here Starts the Footer-->
+
+          <footer id="footer">
+               <div>
+                    <a href="https://www.twitter.com/biotech2k1">
+                         <img class="twitter-icon" src="../images/twitterlogo.jpg" alt="Follow us on Twitter">
+                    </a>
+               </div>
+               <div>
+                    <p class="follow-us">Follow us on Twitter</p>
+               </div>
+          </footer>
+
+          <!--Javascript-->
+
+          <script src="../code/header.js"></script>
+     </body>
+     </html>
