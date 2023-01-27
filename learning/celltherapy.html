@@ -67,13 +67,13 @@
                               <a href="#tcellt">T Cell Therapies</a>
                          </li>
                          <li class="science-topics">
-                              <a href="#">NK Cell Therapies</a>
+                              <a href="#nkcell">NK Cell Therapies</a>
                          </li>
                          <li class="science-topics">
-                              <a href="#">Gamma/Delta T Cell Therapies</a>
+                              <a href="#gammadelta">Delta/Gamma T Cell Therapies</a>
                          </li>
                          <li class="science-topics">
-                              <a href="#">iPSC Cells</a>
+                              <a href="#ipsc">iPSC Cells</a>
                          </li>
                     </ul>
                     
@@ -81,9 +81,210 @@
                     <section>
                          <h2 class="science-headers" id="tcellt">T Cell Therapies</h2>
                          <p>     
-                              
+                              The T cell, specifically the CD8+ cytotoxic T cell, is the perfect cell killing machine. Its natural 
+                              function is to find and destroy any cells that are infected or defective in the body so they can do no 
+                              harm. There are a few attributes about the cytotoxic T cell that need to be understood when using it 
+                              as a therapy to target and kill cancer.
                          </p>
-                       
+                         <p>
+                              The first is a T cell has a T cell receptor which functions with MHC I. We covered the HLA and MHC I in 
+                              immunology. Each T cell only recognizes the right antigen for its receptor and only when its presented 
+                              by the exactly right MHC I type. This is called T cell restriction. Even if you insert a CAR receptor 
+                              into a T cell, it will still express its original TCR that can react to antigens and other MHC I 
+                              classes in the form of rejection. Some CAR-T therapies now insert the CAR into the T Cell Alpha chain (TRAC) locus
+                              which replaces the T cell receptor with the CAR receptor. This is designed to get around possible rejection
+                              cuased by the original T cell receptor.
+                         </p>
+                         <p>
+                              What is a CAR receptor? It stands for Chimeric Antigen Receptor. It takes the binding region of an 
+                              antibody and inserts it into the T cell. Why? because antibodies have more diverse ability to bind 
+                              antigens without the need of HLA or MHC I. It takes the binding region of the antibody and binds it 
+                              together with the activity domains of the TCR receptor complex like CD3 and Zeta. This creates a chimeric 
+                              receptor for activation. 
+                         </p>
+                         <p>     
+                              The main thing for a T cell is it is a cell. All cells display MHC I of the person 
+                              they came from. This means they can be attacked and killed when put into another patient that has a 
+                              different HLA type. This type of potential rejection is what many companies are trying to fix now. They are using
+                              approches like knocking out the B2 microglobulin (B2M) of the MHC I which blocks it from being presented on 
+                              the T cells surface. Knocking out the B2M protects these CAR-T or TCR T cells from being attacked by the 
+                              recipients T cells and rejected before they can do their job of killing the cancer. The problem with just 
+                              knocking out the MHC I is the NK cells. NK cells measure the MHC I level on a cell as part of their damage checks. 
+                              If any cell lacks enough MHC I, the NK cell will kill it. By just knocking out B2M, you save these T cells 
+                              from rejection by other T cells, but you open them up to killing my NK cells. Some of the attempts to fix this 
+                              are to insert into that B2M locus something that will pacify the NK cells. There are other HLA types 
+                              that won't be rejected by T cells, but will be accepted by NK cells. This can be HLA-E, HLA-G. Some companies 
+                              are testing out checkpoint inhibitors like C47. This then gives you protection by both T and NK cells in 
+                              the recipient. Most of the data in these immune evasion therapies is still early.
+                         </p>
+                         <p>
+                              The next key edit needed for TCR or CAR-T cells will be the knockout of the PD-1 receptor. Many tumors will 
+                              display large amounts of PD-L1 on their surface. This is a checkpoint designed to protect healthy cells 
+                              form being killed by T cells. Its a way tumor cells block killing by T cells. This can be over come by just 
+                              knocking out the gene for the PD-1 receptor. This prevents the need for a PD-1 inhibitor drug which 
+                              typically are more toxic as they work systemically vs localized for a CAR-T cell.
+                         </p>
+                         <p>
+                              The last big thing about CAR-T and TCR cell engineering is co-stimulation. Much study has been put into what 
+                              kind of co-stimulation is necessary. Some use CD28 and others use 4-1BB. Some now use both. From my years of 
+                              looking at the data for these CAR-T programs its my summary that CD28 has shorter, but more robust responses 
+                              while 4-1BB has longer more slowly ramped responses. The key to remember is the co-stimulatory signals on a 
+                              normal T cells are separate from the receptor and act like a second safety signal to activation. With a 
+                              CAR-T, they are hardwired right into the CAR receptor complex. This can add additional risk to these 
+                              therapies as they are always active. This leads to some of the side effects of CAR-T cell therapies.
+                         </p>
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="nkcell">NK Cell Therapies</h2>
+                         <p>     
+                              NK cells are a close cousin to the cytotoxic T cell so it is only logical that scientists would look at them for 
+                              use in cell therapies to treat cancer. They use the same cytotoxic mechanisms to kill infected or defective 
+                              cells. There are some major difference between the CD8+ T cells and the NK cell. The first is the NK cell does not 
+                              use MHC I the same as the T cell. The cytotoxic T cell reads the MHC I on the cell along with any antigens 
+                              it is presenting. It works with the MHC I. NK cells read the level of MHC I on the surface of the cell using sets of 
+                              activating and inhibitors receptors on its surface like NKG2D and KIR. The NK cell activates when MHC I is 
+                              low or missing. Many infected or tumor cells will stop producing MHC I, or they produce only fragments of the MHC I. 
+                              The NK cell is designed to detect this and kill those cells that lack proper MHC I expression. NK cells 
+                              also have other receptors which allow them to detect stress ligands from cells. The combination of the Cytotoxic T cell 
+                              and the NK cell are like the dynamic duo of the immune system as they regulate the 2 aspects of MHC I 
+                              expression on cells. One activates in its presence while the other activates in its absence.
+                         </p>
+                         <p>
+                              When using a NK cell to do CAR-NK, you can easily leave these receptors active as they can still 
+                              do their jobs without any problems unlike the original TCR receptor for the T cells. One of the major 
+                              benefits of using NK cells over T cells is they produce much lower levels of pro inflammatory cytokines
+                              which leads to a lot of the toxicities of the CAR-T therapies like CRS and nuerotoxicity. That also tends 
+                              to be their drawback too. The lower level of cytokines usually leads to lower responses with CAR-NK cell 
+                              therapies. 
+                         </p>
+                         <p>
+                              Some other advantages of the NK cell is it has the CD16 receptor with allow them to work with antibodies in 
+                              a process called Antibody Dependent Cellular Cytotoxicity (ADCC). This allows for great combination 
+                              treatments with already existing and newly developed cancer antibodies. Another advantage of NK cells is 
+                              they are tissue oriented immune cells. Where the T cells and B cells typically remain in the lymph nodes 
+                              and circulation, the NK cells normally occupy the tissues where many tumors arise. In the same way
+                              as T cells, NK cells still express MHC I like all cells. This means they can 
+                              still be rejected by a healthy immune system. They tend to work fine in patients with immune 
+                              suppression, but they will need immune evasion editing to work better and have long term durability.
+                         </p>
+                         <p>
+                              NK cells are still in early stages of development. Data from some of the phase 1 programs have shown 
+                              similar efficacy to CAR-T programs in this space. With additional edits, there is the potential to close 
+                              the gap between autologous CAR-T therapies and some of these newer allogeneic CAR-T and CAR-NK therapies.
+                         </p>
+                         
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="gammadelta">Delta/Gamma T Cells</h2>
+                         <p>     
+                              In all my years of taking Immunology courses, I have yet to find one that gets into this variant of the T cell called the 
+                              Delta/Gamma T cell. I think most of that has to do with how little we know about them. It wasn't until cell therapies 
+                              like CAR-T came onto the scene before an interest in this subset of T cells got some interest. Here we 
+                              will look at the differences they have with T cells, and the similarities they have with innate cells.
+                         </p>
+                         <p>
+                              We know about T cells and how they are developed in the thymus. All precursor T cells go into the thymus where they mature 
+                              into Alpha/Beta T cells with the CD4+ and CD8+ types. About 5% of the precursor Thymocytes that enter the thymus will become 
+                              the Delta/Gamma T cell subset. These variants of T cells have very different receptors than their siblings 
+                              the Alpha/Beta T cells. The first thing that happens is the T cell will attempt to make a good Beta chain. If it is 
+                              successful, it will make the Alpha chain which removes the Delta genes. Notice the Delta chain genes sit 
+                              inside the Alpha chain gene between the variable and joining regions. It is believed that thymocytes that fail to do a 
+                              Beta chain rearrangement will attempt to make a Gamma chain as a rescue mechanism. If they succeed at the 
+                              Gamma chain, then they will develop the Delta chain and become Delta/Gamma T cells.
+                         </p>
+                         <p>
+                              There are a few differences between these two types of T cells. The first is the Alpha/Beta T cells have many Variable, 
+                              Diversity and Junction genes to choose from. Their diversity is millions of possibilities. The Delta/Gamma T cells 
+                              only have 4 Variable and a few Diversity and Junction options. They have extremely limited options for 
+                              which to arrange their receptors. Once they become a Delta/Gamma T cell, they leave the thymus immediately 
+                              and undergo no further selection. Their receptors do not work with MHC at all. They work more like pattern 
+                              recognition receptors. This means they can't participate in rejection based off MHC I missmatch. This is what 
+                              brought them interest as cell therapies. They actually have a ton of other receptors like CD1, CD16, NKG2D 
+                              and Toll Like Receptors (TLRs). They are like a Swiss Arm Knife of cells. They have some the receptors of NK 
+                              cells and some of the receptors of Antigen Presenting Cells (APCs). It is believed they can process and 
+                              present antigens to Alpha/Beta T cells.
+                         </p>
+                         <p>
+                              They even release many of the same cytokines to initiate inflammation like Macrophages such as Interferon and TNF-a.
+                              Beside having their own limited Delta/Gamma T cell receptor, they have many other receptors. Its is also believed 
+                              that these Delta/Gamma T cell can do differentiation like the helper T cells into a Delta/Gamma T17 cell. The 
+                              first of the many receptors for the Delta/Gamma T cell is the NKG2D receptors which measures the level of
+                              MHC I on cells to see if they are healthy. They also have the receptors to detect Mic-a and Mic-b 
+                              variants of MHC I that are often stress ligands. They have a CD1 receptor which works as limited 
+                              ability of the immune system to present lipids as antigens by T cells. They also have some Toll Like 
+                              Receptors. I found no reference yet to exactly which ones, but some references are toward viral TLRs 
+                              which would be 3, 7, 8 and 9. They also have the CD16 receptor which makes the able to bind to antibodies 
+                              and participate in Antibody Dependent Cellular Cytotoxicity ADCC.
+                         </p>
+                         <p>
+                              Since the Delta/Gamma T cell is a cell, they will express the MHC I and MHC II of the person who created them. 
+                              This means they could be targeted and rejected by a healthy immune system. They would still need edits for 
+                              immune evasion to be used as therapies. The Delta/Gamma T cells some in two subtypes with the Vd1+ and Vd2+ 
+                              variants. They have different roles with in the body. They tend to home to different tissues. There has 
+                              been a lot of new research into the subtypes of Delta/Gamma T cells. This has been to study which subtypes do 
+                              best with specific tissues. This could lead to helping target these therapies to specific tissue types of 
+                              cancer.
+                         </p>
+                         <p>
+                              The Delta/Gamma T cells has so many functions used by many of the different immune cells. It is only natural 
+                              that they would have their time in development for cell therapies. What we don't know is how they will 
+                              perform. Some of the early data suggests they are on par with other allogeneic therapies. Its going to take 
+                              time and data to differentiate these cell types as therapies. We might end up finding there is no 
+                              difference between any of them. They might all work equally well.
+                         </p>
+                         
+                         <p class="top-link"><a href="#top">Top</a></p>
+                    
+                    </section>
+
+                    <section>
+                         <h2 class="science-headers" id="ipsc">iPSC Cells</h2>
+                         <p>     
+                              This technology is about taking a mature cell and backward engineering it back into a stem cell. It was 
+                              developed by Shinya Yakamana in 2006. Alone, this technology had limited applications and didn't do much 
+                              for years. They start by taking any cell. They mix it with a combination of transcription factors like 
+                              Klf4, Sox2, Oct4 and Myc. This will take those cells back into a stem cell state. This is called an induced 
+                              Pluripotent Stem Cells.
+                         </p>
+                         <p>
+                              Once these cells are engineered back into stem cells they can be combined with gene editing to allow 
+                              for engineering new cells. Then along came CRISPR gene editing and everything changed with a cheap, 
+                              fast and easy to use editor. The DNA of the cell is its programming. Just like with any computer, if 
+                              you reprogram the DNA with editing, you change the cells behavior. Studies have shown that transplanting 
+                              1 cells DNA into another cell with cause the new cell to assume the behavior of the original cell.
+                              The combination of iPSC and CRISPR brought together the two key components for complex cell engineering. 
+                              You can engineer a stem cell with edits such as those for immune evasion in cell therapies.
+                         </p>
+                         <p>
+                              Since stem cells are immortal, they can make master banks from these cells my running them through the 
+                              cell cycle and expanding them. They can cryopreserve these cells. They build these mater banks as a 
+                              starting source for therapies. They can take some cells from the master bank and walk them down the path 
+                              to development using growth factors and transcription factors. A single batch run can produce trillion of cells 
+                              with 99% efficiency. Traditional ex-vivo cell therapy editing takes time, has high costs and can have low 
+                              yields for efficiency. The development of iPSC cells cuts costs to as low as a few thousand dollars per 
+                              therapy. It can produce hundreds or even thousands of doses per batch run. Typically it takes a few weeks 
+                              to run a batch of these cells. The development of engineer iPSC banks has changed the way we can 
+                              manufacture cell therapies.
+                         </p>
+                         <p>
+                              It has the benefits of being able to work with any cell. The combination of iPSC with CRISPR has opened 
+                              up a whole new world of highly engineered cell therapies. Some companies are developing master banks of 
+                              cells that have upward of 12 edits. They create master banks of common progenitor cells which then just 
+                              need the CAR inserted before running the batch. Due to stem cells having immortality, they can do many 
+                              edits and only need 1 of the stem cells to have all the edits to become an entire master bank. I see a 
+                              lot of people get hung up about one cell type or one therapy for the iPSC cell companies. The real 
+                              technology in iPSC is how it changes the manufacturing of cell therapies. It can be used for any cells 
+                              from T cells, NK cells, liver cells, heart cells, islet cells and even glial cells. The companies that 
+                              wield iPSC as a tool will be able to do complex cell engineering that other companies will never be able 
+                              to do.
+                         </p>
+                         
                          <p class="top-link"><a href="#top">Top</a></p>
                     
                     </section>
