@@ -8,7 +8,26 @@ a {
      text-decoration: none;
 }
 
-/* Here Starts the Index Page */
+/* Here Starts the Front Page */
+
+.front-page {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.news-updates {
+     width: 45%;
+     margin: 20px;
+     padding: 0 10px;
+     border: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+     .news-updates {
+          width: 90%;
+     }    
+}
 
 .container {
      padding: 20px;
@@ -54,7 +73,7 @@ a {
 }
 
 .tech-list {
-     font-size: 25px;
+     font-size: 20px;
 }
 
 /* Here Starts the Companies Page */
@@ -168,7 +187,7 @@ table tr:hover {
      margin-right: 50px;
 }
 
-/* Investing Pages Start Here */
+/* Investing Guides Pages Start Here */
 
 .investing-headers {
      text-align: center;
