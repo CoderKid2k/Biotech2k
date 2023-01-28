@@ -20,7 +20,13 @@ a {
      width: 45%;
      margin: 20px;
      padding: 0 10px;
-     border: 1px solid black;
+}
+
+.videos {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
