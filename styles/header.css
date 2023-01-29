@@ -60,6 +60,8 @@
 /* Here Starts the Nav Hamburger */
 
 .hamburger {
+     padding: 10px;
+     border-radius: 25px;
      margin-right: 20px;
 }
 
