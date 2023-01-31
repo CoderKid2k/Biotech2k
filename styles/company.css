@@ -2,6 +2,14 @@
      text-align: center;
 }
 
+.company-name a {
+     color: #216be3;
+}
+
+.company-name a:hover {
+     text-shadow: 1px 1px 1px #000000;
+}
+
 .company-layout {
      display: flex;
      flex-direction: row;
