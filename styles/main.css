@@ -211,13 +211,13 @@ a {
 }
 
 table caption {
-     background-color: #d5a9e1;
+     background-color: #58d3dc;
      border: solid 1px #000000;
      font-weight: 800;
 }
 
 table tr:hover {
-     background-color: #d5a9e1;
+     background-color: #e5f3f4;
      font-weight: 700;
 }
 
@@ -228,7 +228,7 @@ table tr:hover {
 }
 
 .totals {
-     background-color: #d5a9e1;
+     background-color: #58d3dc;
 }
 
 @media screen and (max-width: 768px) {

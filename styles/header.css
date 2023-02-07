@@ -1,6 +1,5 @@
 #header {
-     background-color: #872ca0;
-     color: #ffffff;
+     background-color: #58d3dc;
      height: 50px;
      position: fixed;
      top: 0px;
@@ -9,24 +8,29 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
+     border-bottom: 1px solid #000000;
 }
 
 /* Here starts the Page Title */
 
 .brand-title {
-     padding-left: 20px;
+     padding-left: 10px;
+}
+.site-name {
+     font-size: 25px;
 }
 
-.site-name {
-     font-size: 20px;
-     font-weight: 600;
-     letter-spacing: 5px;
+.site-name a {
+     background-color: #ffffff;
+     color: #000000;
+     padding: 5px 15px;
+     border-radius: 20px;
 }
 
 /* Here Starts the Right Nav Bar */
 
 .menu {
-     background-color: #872ca0;
+     background-color: #58d3dc;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -35,34 +39,50 @@
      font-size: 120%;
      top: 50px;
      right: -100%;
-     width: 170px;
+     width: 200px;
      height: 300px;
      padding: 0px;
      margin: 0px;
+     border: 1px solid #000000;
 }
 
 .nav-item {
+     background-color: #ffffff;
+     margin: 3px 0px;
+     border-radius: 20px;
+     width: 120px;
      list-style-type: none;
      padding: 8px 16px;
 }
 
 .nav-item:hover {
-     font-weight: 700;
+     background-color: #e5f3f4;
      cursor: pointer;
-     text-shadow: 1px 1px 1px #000000;
+     font-weight: 700;
 }
 
-#header a {
-     color: #ffffff;
+nav a {
+     color: #000000;
      text-decoration: none;
+}
+
+nav a:hover {
+     font-weight: 700;
+     cursor: pointer;
 }
 
 /* Here Starts the Nav Hamburger */
 
 .hamburger {
-     padding: 10px;
+     background-color: #ffffff;
+     width: 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 5px 10px;
      border-radius: 25px;
-     margin-right: 20px;
+     margin-right: 10px;
 }
 
 .hamburger:hover {
@@ -74,15 +94,15 @@
 }
 
 .hamburger.active .chevron:nth-child(1) {
-     transform: translateY(7px) rotate(45deg);
+     transform: translateY(9px) rotate(45deg);
 }
 
 .hamburger.active .chevron:nth-child(3) {
-     transform: translateY(-7px) rotate(-45deg);
+     transform: translateY(-9px) rotate(-45deg);
 }
 
 .chevron {
-     background-color: #ffffff;
+     background-color: #000000;
      height: 5px;
      width: 25px;
      margin: 2px;
