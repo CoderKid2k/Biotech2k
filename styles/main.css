@@ -44,17 +44,6 @@ a {
      text-align: center;
 }
 
-.section-title a {
-     color: #216be3;
-     font-size: 20px;
-     text-align: center;
-}
-
-.section-title a:hover {
-     text-shadow: 1px 1px 1px #000000;
-     transition: .5s;
-}
-
 .large-text {
      font-size: 20px;
 }
@@ -80,21 +69,27 @@ a {
 
 .tech-list {
      font-size: 20px;
+     font-weight: 700;
 }
 
 /* Here Starts the Companies Page */
 
 .tech-list a {
-     color: #216be3;
+     color: #000000;
 }
 
 .tech-list a:hover {
+     color: #58d3dc;
      text-shadow: 1px 1px 1px #000000;
      transition: .5s;
 }
 
 .top-link a {
-     color: #216be3;
+     color: #3869b8;
+}
+
+.top-link a:hover {
+     color: #000000;
 }
 
 /* Here Starts the Science Page */
@@ -121,7 +116,7 @@ a {
 }
 
 .science-list a {
-     color: #216be3;
+     color: #000000;
 }
 
 /* Here Starts the Profile Pages */
@@ -131,11 +126,13 @@ a {
 }
 
 .company-name a {
-     color: #216be3;
+     color: #000000;
 }
 
 .company-name a:hover {
+     color: #58d3dc;
      text-shadow: 1px 1px 1px #000000;
+     transition: .5s;
 }
 
 .company-layout {
@@ -158,10 +155,6 @@ a {
 
 .profiles {
      padding: 10px;
-}
-
-.profiles a {
-     color: #216be3;
 }
 
 .progress-bar {
@@ -188,6 +181,10 @@ a {
      color: #216be3;
 }
 
+.science-topics a:hover {
+     color: #000000;
+}
+
 /* Investing Page Style Starts Here */
 
 .investor-link {
@@ -199,7 +196,7 @@ a {
 }
 
 .investor-link a:hover {
-     text-shadow: 1px 1px 1px #000000;
+     color: #000000;
 }
 
 /* Portfolio Page Starts Here */
