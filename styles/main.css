@@ -75,13 +75,11 @@ a {
 /* Here Starts the Companies Page */
 
 .tech-list a {
-     color: #000000;
+     color: #216be3;
 }
 
 .tech-list a:hover {
-     color: #58d3dc;
-     text-shadow: 1px 1px 1px #000000;
-     transition: .5s;
+     color: #000000;
 }
 
 .top-link a {
