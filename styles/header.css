@@ -39,8 +39,8 @@
      font-size: 120%;
      top: 50px;
      right: -100%;
-     width: 200px;
-     height: 300px;
+     width: 220px;
+     height: 350px;
      padding: 0px;
      margin: 0px;
      border: 1px solid #000000;
@@ -51,7 +51,7 @@
      background-color: #ffffff;
      margin: 3px 0px;
      border-radius: 20px;
-     width: 120px;
+     width: 125px;
      list-style-type: none;
      padding: 8px 16px;
 }
