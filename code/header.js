@@ -8,12 +8,11 @@ function makeActive () {
 
 hamburger.addEventListener('click', makeActive);
 
-const menu = document.querySelector(".company-menu");
-const sideNav = document.querySelector(".company-nav");
+const main = document.querySelector("main");
 
-function sideActive () {
-     menu.classList.toggle("active");
-     sideNav.classList.toggle("active");
+function removeActive () {
+     hamburger.classList.remove("active");
+     navMenu.classList.remove("active");
 }
 
-menu.addEventListener('click', sideActive);
+main.addEventListener('click', removeActive);
