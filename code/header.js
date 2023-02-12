@@ -7,3 +7,13 @@ function makeActive () {
 }
 
 hamburger.addEventListener('click', makeActive);
+
+const menu = document.querySelector(".company-menu");
+const sideNav = document.querySelector(".company-nav");
+
+function sideActive () {
+     menu.classList.toggle("active");
+     sideNav.classList.toggle("active");
+}
+
+menu.addEventListener('click', sideActive);

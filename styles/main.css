@@ -1,6 +1,11 @@
+body {
+     padding: 0px;
+     margin: 0px;
+}
+
 main {
      font-family: 'Trebuchet MS', Arial, sans-serif;
-     margin-top: 65px;
+     margin-top: 60px;
      margin-bottom: 50px;
 }
 
@@ -51,6 +56,7 @@ a {
 /* Here Starts the Innovation Page */
 
 .list-border {
+     margin: 0px 10px;
      border: 1px solid #000000;
 }
 
@@ -74,21 +80,96 @@ a {
 
 /* Here Starts the Companies Page */
 
-.tech-list a {
-     color: #216be3;
+.left-nav {
+     display: flex;
 }
 
-.tech-list a:hover {
+.company-menu:hover {
+     cursor: pointer;
+}
+
+.company-menu .stripe:nth-child(2) {
+     opacity: 0;
+}
+
+.company-menu .stripe:nth-child(1) {
+     transform: translateY(7px) rotate(45deg);
+}
+
+.company-menu .stripe:nth-child(3) {
+     transform: translateY(-7px) rotate(-45deg);
+}
+
+.company-menu.active .stripe:nth-child(2) {
+     opacity: 1;
+}
+
+.company-menu.active .stripe:nth-child(1) {
+     transform: none;
+}
+
+.company-menu.active .stripe:nth-child(3) {
+     transform: none;
+}
+
+.nav-panel {
+     width: 175px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: fixed;
+     top: 50px;
+     left: 0px;
+     height: 50px;
+     border-top: 1px solid #000000;
+     border-right: 1px solid #000000;
+     border-bottom: 1px solid #000000;
+}
+
+.company-nav {
+     background-color: #58d3dc;
+     position: fixed;
+     padding-top: 25px;
+     top: 100px;
+     left: 0px;
+     bottom: 0px;
+     width: 175px;
+     border-right: 1px solid #000000;
+}
+
+.company-nav a {
      color: #000000;
 }
 
-.top-link a {
-     color: #3869b8;
+.company-nav a:hover {
+     color: #ffffff;
 }
 
-.top-link a:hover {
-     color: #000000;
+.company-nav ul {
+     list-style: none;
+     padding-left: 10px;
+     margin: 0px;
 }
+
+.company-nav.active {
+     left: -100%;
+}
+
+.stripe {
+     background-color: #000000;
+     height: 5px;
+     width: 25px;
+     margin: 2px;
+}
+
+.company-nav h2 {
+     font-size: 18px;
+}
+
+.navmenu-item {
+     padding-left: 25px;
+}
+
 
 /* Here Starts the Science Page */
 
