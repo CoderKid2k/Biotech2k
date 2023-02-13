@@ -176,6 +176,14 @@ a {
      color: #000000;
 }
 
+.profiles a {
+     color: #216be3;
+}
+
+.profiles a:hover {
+     color: #000000;
+}
+
 .company-layout {
      display: flex;
      flex-direction: row;
