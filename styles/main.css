@@ -149,11 +149,12 @@ a {
 /* Here Starts the Company Profile Pages */
 
 .back-companies {
-     margin: 10px;
+     margin: 25px;
 }
 
 .back-companies a {
      color: #216be3;
+     margin: 25px;
 }
 
 .back-companies a:hover {
