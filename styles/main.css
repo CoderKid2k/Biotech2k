@@ -15,6 +15,14 @@ a {
 
 /* Here Starts the Front Page */
 
+.logo {
+     text-align: center;
+}
+
+.page-logo {
+     width: 100px;
+}
+
 .front-page {
      display: flex;
      justify-content: center;
