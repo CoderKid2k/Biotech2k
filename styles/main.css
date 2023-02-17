@@ -246,7 +246,7 @@ a {
 /* Investing Page Style Starts Here */
 
 .investor-link {
-     font-size: 15px;
+     list-style-type: none;
 }
 
 .investor-link a {
