@@ -245,7 +245,17 @@ a {
 
 /* Investing Page Style Starts Here */
 
+.investing-container {
+     padding: 20px;
+}
+
+.investing-headers {
+     text-align: center;
+     margin-bottom: 50px;
+}
+
 .investor-link {
+     margin: 50px 0;
      list-style-type: none;
 }
 
@@ -295,14 +305,4 @@ table tr:hover {
 .updated {
      text-align: right;
      margin-right: 50px;
-}
-
-/* Investing Guides Pages Start Here */
-
-.investing-headers {
-     text-align: center;
-}
-
-.investing-container {
-     padding: 20px;
 }
