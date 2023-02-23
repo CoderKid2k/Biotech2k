@@ -101,14 +101,14 @@ a {
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
-     align-items: flex-start;
+     align-items: center;
 }
 
 .company-list {
      display: flex;
      flex-direction: column;
      justify-content: center;
-     align-items: center;
+     align-items: flex-start;
      width: 300px;
      margin: 10px;
 }
