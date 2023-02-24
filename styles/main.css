@@ -88,6 +88,10 @@ a {
 
 /* Here Starts the Companies Page */
 
+.company-format {
+     padding: 0 20px;
+}
+
 .company-title {
      text-align: center;
      padding: 25px 0px;
