@@ -89,6 +89,7 @@ nav a:hover {
 }
 
 .hamburger:hover {
+     background-color: #e5f3f4;
      cursor: pointer;
 }
 
