@@ -342,3 +342,15 @@ table tr:hover {
      text-align: right;
      margin-right: 50px;
 }
+
+/* Clinical Data Page Style */
+
+.data-set {
+     width: 1000px;
+}
+
+@media screen and (max-width: 800px) {
+     .data-set {
+          width: 400px;
+     }
+}

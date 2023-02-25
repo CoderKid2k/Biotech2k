@@ -21,10 +21,14 @@
 }
 
 .site-name a {
-     background-color: #ffffff;
      color: #000000;
      padding: 5px 15px;
      border-radius: 20px;
+}
+
+.site-name a:hover {
+     background-color: #ffffff;
+     color: #000000;
 }
 
 /* Here Starts the Right Nav Bar */
