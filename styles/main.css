@@ -23,6 +23,15 @@ a {
      width: 100px;
 }
 
+.notice-layout {
+     padding: 0 35px;
+}
+
+.notice-header {
+     text-align: center;
+     color: #ff0000;
+}
+
 .front-page {
      display: flex;
      justify-content: center;
