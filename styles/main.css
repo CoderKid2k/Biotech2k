@@ -21,11 +21,18 @@ a {
 
 .page-logo {
      width: 100px;
+     border-radius: 50px;
 }
 
 .front-page {
      display: flex;
      justify-content: center;
+     flex-wrap: wrap;
+}
+
+.main-lists {
+     display: flex;
+     justify-content: space-evenly;
      flex-wrap: wrap;
 }
 
@@ -39,11 +46,11 @@ a {
      padding: 0 35px;
 }
 
-.notice-header {
-     text-align: center;
+.news-title {
+     font-size: 20px;
      color: #ff0000;
+     text-align: center;
 }
-
 
 .videos {
      display: flex;
@@ -56,6 +63,9 @@ a {
      .news-updates {
           width: 90%;
      }    
+     .main-lists {
+          justify-content: flex-start;
+     }
 }
 
 .container {
