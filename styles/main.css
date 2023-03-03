@@ -1,19 +1,55 @@
+/* Common on All Pages Style */
+
 body {
      padding: 0px;
      margin: 0px;
 }
 
 main {
-     font-family: 'Trebuchet MS', Arial, sans-serif;
+     font-family:'Courier New', Courier, monospace;
      margin-top: 60px;
      margin-bottom: 50px;
 }
 
 a {
      text-decoration: none;
+     color: #216be3;
 }
 
-/* Here Starts the Front Page */
+a:hover {
+     color: #000000;
+}
+
+ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+
+.center {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.container {
+     padding: 20px;
+}
+
+.section-title {
+     text-align: center;
+     font-size: 30px;
+}
+
+.sub-header {
+     text-align: center;
+     margin: 25px 0;
+     font-size: 20px;
+     font-style: italic;
+}
+
+/* Here Starts the Home Page */
 
 .logo {
      text-align: center;
@@ -68,14 +104,6 @@ a {
      }
 }
 
-.container {
-     padding: 20px;
-}
-
-.section-title {
-     font-size: 20px;
-     text-align: center;
-}
 
 /* Here Starts the Innovation Page */
 
@@ -83,57 +111,23 @@ a {
      text-align: center;
      margin: 0;
      padding-top: 30px;
-     padding-bottom: 0px;
+     padding-bottom: 50px;
+     font-size: 50px;
 }
 
-.innovation-titles {
-     text-align: center;
+.multi-list {
+    display: block;
 }
 
-.innovation-tech {
-     text-align: center;
+.multi-list h3 {
+     text-align: left;
 }
 
-.innovation-link {
-     list-style-type: none;
-}
-
-.innovation-link a {
-     color: #216be3;
-}
-
-.innovation-link a:hover {
-     color: #000000;
-}
-
-.list-border {
-     margin: 0px 10px;
-     border-bottom: 1px solid #000000;
-}
+/* Here Starts the Companies Page */
 
 .list-header {
      text-align: center;
 }
-
-.list-container {
-     text-align: center;
-}
-
-.list-align {
-     padding: 0px;
-     display: inline-block;
-     text-align: left;
-}
-
-.tech-list a {
-     color: #216be3;
-}
-
-.tech-list a:hover {
-     color: #000000;
-}
-
-/* Here Starts the Companies Page */
 
 .company-format {
      padding: 0 20px;
@@ -303,11 +297,6 @@ a {
 .investing-headers {
      text-align: center;
      margin-bottom: 50px;
-}
-
-.sub-header {
-     text-align: center;
-     margin: 25px 0;
 }
 
 .investor-link {
