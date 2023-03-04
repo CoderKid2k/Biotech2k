@@ -153,34 +153,7 @@ ul {
      margin: 0px;
 }
 
-/* Here Starts the Science Page */
-
-.science-layout {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: center;
-}
-
-.science-topic {
-     width: 45%;
-}
-
-@media only screen and (max-width: 768px) {
-     .science-topic {
-          width: 90%;
-     }    
-}
-
-.science-list {
-     padding-left: 30px;
-}
-
-.science-list a {
-     color: #000000;
-}
-
-/* Here Starts the Company Profile Pages */
+/* Here Starts the Company Profiles Pages */
 
 .company-container {
      padding: 10px;
@@ -220,31 +193,29 @@ ul {
      margin-right: 50px;
 }
 
-/* Here Starts the Science Sub Page */
+/* Here Starts the Investing Page */
 
-.science-headers {
-     text-align: center;
-     padding: 25px 0px;
+.investing-layout {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
 }
 
-.science-container {
-     padding: 20px;
+.investing-topic {
+     margin-top: 30px;
+     margin-bottom: 30px;
+     width: 45%;
 }
 
-/* Investing Page Style Starts Here */
-
-.investing-container {
-     padding: 20px;
+@media only screen and (max-width: 768px) {
+     .investing-topic {
+          width: 90%;
+     }    
 }
 
-.investing-headers {
-     text-align: center;
-     margin-bottom: 50px;
-}
-
-.investor-link {
-     margin: 50px 0;
-     list-style-type: none;
+.investing-list a {
+     color: #000000;
 }
 
 /* Portfolio Page Starts Here */
@@ -286,6 +257,42 @@ table tr:hover {
 .updated {
      text-align: right;
      margin-right: 50px;
+}
+
+/* Here Starts the Science Page */
+
+.science-layout {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.science-topic {
+     margin-top: 30px;
+     margin-bottom: 30px;
+     width: 45%;
+}
+
+@media only screen and (max-width: 768px) {
+     .science-topic {
+          width: 90%;
+     }    
+}
+
+.science-list a {
+     color: #000000;
+}
+
+/* Here Starts the Science Sub Page */
+
+.science-headers {
+     text-align: center;
+     padding: 25px 0px;
+}
+
+.science-container {
+     padding: 20px;
 }
 
 /* Clinical Data Page Style */
