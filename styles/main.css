@@ -58,17 +58,12 @@ ul {
 .page-logo {
      width: 100px;
      border-radius: 50px;
+     margin-bottom: 50px;
 }
 
 .front-page {
      display: flex;
      justify-content: center;
-     flex-wrap: wrap;
-}
-
-.main-lists {
-     display: flex;
-     justify-content: space-evenly;
      flex-wrap: wrap;
 }
 
@@ -78,21 +73,10 @@ ul {
      padding: 0 10px;
 }
 
-.notice-layout {
-     padding: 0 35px;
-}
-
 .news-title {
      font-size: 20px;
      color: #ff0000;
      text-align: center;
-}
-
-.videos {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
