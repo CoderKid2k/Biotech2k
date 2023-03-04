@@ -6,7 +6,7 @@ body {
 }
 
 main {
-     font-family:'Courier New', Courier, monospace;
+     font-family: 'Trebuchet MS', Arial, sans-serif;
      margin-top: 60px;
      margin-bottom: 50px;
 }
@@ -154,14 +154,6 @@ ul {
      margin: 0px;
 }
 
-.company-list a {
-     color: #216be3;
-}
-
-.company-list a:hover {
-     color: #000000;
-}
-
 /* Here Starts the Science Page */
 
 .science-layout {
@@ -224,10 +216,6 @@ ul {
      padding: 10px;
 }
 
-.progress-bar {
-     margin-left: 20px;
-}
-
 .updated {
      text-align: right;
      margin-right: 50px;
@@ -244,14 +232,6 @@ ul {
      padding: 20px;
 }
 
-.science-topics a {
-     color: #216be3;
-}
-
-.science-topics a:hover {
-     color: #000000;
-}
-
 /* Investing Page Style Starts Here */
 
 .investing-container {
@@ -266,14 +246,6 @@ ul {
 .investor-link {
      margin: 50px 0;
      list-style-type: none;
-}
-
-.investor-link a {
-     color: #216be3;
-}
-
-.investor-link a:hover {
-     color: #000000;
 }
 
 /* Portfolio Page Starts Here */
