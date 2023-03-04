@@ -129,7 +129,7 @@ ul {
 .page-display {
      display: flex;
      flex-wrap: wrap;
-     justify-content: center;
+     justify-content: flex-start;
      align-items: flex-start;
 }
 
@@ -138,8 +138,14 @@ ul {
      flex-direction: column;
      justify-content: center;
      align-items: flex-start;
-     width: 300px;
+     width: 45%;
      margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+     .company-list {
+          width: 95%;
+     }
 }
 
 .company-list ul {
@@ -185,41 +191,12 @@ ul {
 
 /* Here Starts the Company Profile Pages */
 
-.back-companies {
-     margin: 10px;
-}
-
-.back-companies a {
-     color: #216be3;
-     margin: 10px;
-}
-
-.back-companies a:hover {
-     color: #000000;
-}
-
 .company-container {
      padding: 10px;
 }
 
 .company-name {
      text-align: center;
-}
-
-.company-name a {
-     color: #216be3;
-}
-
-.company-name a:hover {
-     color: #000000;
-}
-
-.profiles a {
-     color: #216be3;
-}
-
-.profiles a:hover {
-     color: #000000;
 }
 
 .company-layout {
@@ -232,6 +209,9 @@ ul {
 .section-container {
      border: 1px solid #000000;
      width: 45%;
+}
+.back-companies {
+     margin: 10px;
 }
 
 @media only screen and (max-width: 768px) {
